@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import GameField from './components/GameField';
+import { observer } from 'mobx-react-lite';
+import { Flex } from 'antd';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = observer(() => {
+	return (
+		<Flex
+			style={{ inlineSize: '100%', blockSize: '100%' }}
+			justify='center'
+			align='center'
+		>
+			<GameField />
+		</Flex>
+	);
+});
 
 export default App;
