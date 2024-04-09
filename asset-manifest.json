@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phone-rotation/static/css/main.80026be8.css",
+    "main.js": "/phone-rotation/static/js/main.740b3d71.js",
+    "index.html": "/phone-rotation/index.html",
+    "main.80026be8.css.map": "/phone-rotation/static/css/main.80026be8.css.map",
+    "main.740b3d71.js.map": "/phone-rotation/static/js/main.740b3d71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80026be8.css",
+    "static/js/main.740b3d71.js"
+  ]
+}

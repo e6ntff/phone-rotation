@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.80026be8.css","mappings":"AAAA,iBAGC,QAAS,CACT,SACD,CAEA,UAEC,iBACD,CAEA,MAEC,eAAgB,CADhB,gBAED","sources":["index.css"],"sourcesContent":["*,\n*::before,\n*::after {\n\tmargin: 0;\n\tpadding: 0;\n}\n\nhtml,\nbody {\n\tblock-size: 100svh;\n}\n\n#root {\n\tinline-size: 100%;\n\tblock-size: 100%;\n}\n"],"names":[],"sourceRoot":""}
